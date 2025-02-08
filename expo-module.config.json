@@ -1,0 +1,17 @@
+{
+  "platforms": [
+    "apple",
+    "android",
+    "web"
+  ],
+  "apple": {
+    "modules": [
+      "PontuaDetectTimeModule"
+    ]
+  },
+  "android": {
+    "modules": [
+      "expo.modules.pontuadetecttime.PontuaDetectTimeModule"
+    ]
+  }
+}
