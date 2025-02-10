@@ -1,6 +1,6 @@
-import { NativeModule, requireNativeModule } from "expo";
+import { requireNativeModule } from "expo";
 
-declare class PontuaDetectTimeModule extends NativeModule {
+declare class PontuaDetectTimeModule {
   isAutoDateTimeEnabled(): Promise<boolean>;
   isAutoTimeZoneEnabled(): Promise<boolean>;
 }
