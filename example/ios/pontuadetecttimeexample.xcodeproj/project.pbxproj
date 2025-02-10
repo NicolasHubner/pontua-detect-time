@@ -14,7 +14,7 @@
 		96905EF65AED1B983A6B3ABC /* libPods-pontuadetecttimeexample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 58EEBF8E8E6FB1BC6CAF49B5 /* libPods-pontuadetecttimeexample.a */; };
 		B18059E884C0ABDD17F3DC3D /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC715A2D49A985799AEE119 /* ExpoModulesProvider.swift */; };
 		BB2F792D24A3F905000567C9 /* Expo.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB2F792C24A3F905000567C9 /* Expo.plist */; };
-		97A5625271454D6A9C157B5A /* noop-file.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9F180301A24E989E76656C /* noop-file.swift */; };
+		0A371A5BB03944F8A8411526 /* noop-file.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84148A847D8421AB84A9057 /* noop-file.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,8 +31,8 @@
 		BB2F792C24A3F905000567C9 /* Expo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Expo.plist; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		FAC715A2D49A985799AEE119 /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-pontuadetecttimeexample/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
-		1F9F180301A24E989E76656C /* noop-file.swift */ = {isa = PBXFileReference; name = "noop-file.swift"; path = "pontuadetecttimeexample/noop-file.swift"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.swift; explicitFileType = undefined; includeInIndex = 0; };
-		C783F8E8343F453C895F40DA /* pontuadetecttimeexample-Bridging-Header.h */ = {isa = PBXFileReference; name = "pontuadetecttimeexample-Bridging-Header.h"; path = "pontuadetecttimeexample/pontuadetecttimeexample-Bridging-Header.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		B84148A847D8421AB84A9057 /* noop-file.swift */ = {isa = PBXFileReference; name = "noop-file.swift"; path = "pontuadetecttimeexample/noop-file.swift"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.swift; explicitFileType = undefined; includeInIndex = 0; };
+		D79AB8012FD447FEB8286A47 /* pontuadetecttimeexample-Bridging-Header.h */ = {isa = PBXFileReference; name = "pontuadetecttimeexample-Bridging-Header.h"; path = "pontuadetecttimeexample/pontuadetecttimeexample-Bridging-Header.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,8 +57,8 @@
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				13B07FB71A68108700A75B9A /* main.m */,
 				AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */,
-				1F9F180301A24E989E76656C /* noop-file.swift */,
-				C783F8E8343F453C895F40DA /* pontuadetecttimeexample-Bridging-Header.h */,
+				B84148A847D8421AB84A9057 /* noop-file.swift */,
+				D79AB8012FD447FEB8286A47 /* pontuadetecttimeexample-Bridging-Header.h */,
 			);
 			name = pontuadetecttimeexample;
 			sourceTree = "<group>";
@@ -198,7 +198,7 @@
 				BB2F792D24A3F905000567C9 /* Expo.plist in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				3E461D99554A48A4959DE609 /* SplashScreen.storyboard in Resources */,
-				393907E00A264E2FAAA28DC1 /* pontuadetecttimeexample-Bridging-Header.h in Resources */,
+				2D9136CEB3904CEA9CAA3ADB /* pontuadetecttimeexample-Bridging-Header.h in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,7 +274,7 @@
 				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 				B18059E884C0ABDD17F3DC3D /* ExpoModulesProvider.swift in Sources */,
-				97A5625271454D6A9C157B5A /* noop-file.swift in Sources */,
+				0A371A5BB03944F8A8411526 /* noop-file.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
